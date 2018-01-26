@@ -18,7 +18,12 @@ class HelloWorld extends React.Component {
   };
 
   changeState(event) {
-    this.setState({ active: false });
+    if (this.state.active) {
+      this.setState({ active: false });
+    }
+    else {
+      this.setState({ active: true });
+    }
   }
 };
 
