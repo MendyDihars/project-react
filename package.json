@@ -22,6 +22,6 @@
   },
   "scripts": {
     "build": "webpack -p",
-    "dev": "webpack-dev-server --hot --inline"
+    "s": "webpack-dev-server --hot --inline"
   }
 }
